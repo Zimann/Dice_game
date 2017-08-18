@@ -1,0 +1,210 @@
+html,
+body {
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(../img/back.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+}
+.screen-cover {
+    position: absolute;
+    background-color: rgba(44, 62, 80, 0.75);
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    margin-top: -300px;
+    padding-bottom: 300px;
+    color: #fff;
+    visibility: hidden;
+}
+.screen-text-content {
+    position: absolute;
+    z-index: 101;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: -80px;
+    font-size: 50px;
+    visibility: hidden;
+}
+.winner {
+    color: #e74c3c;
+}
+img {
+    width: 60%;
+}
+header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+.title {
+    margin-bottom: 100px;
+    background-color: #fff;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 20px;
+}
+.row {
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+}
+.player-1-col,
+.player-2-col,
+.image-col {
+    width: 33%;
+    font-weight: bold;
+    color: #e74c3c;
+    ;
+    font-size: 22px;
+}
+.player-name {
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #e74c3c;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+.score {
+    margin-top: 20px
+}
+.score-number {
+    color: #000;
+    font-size: 35px;
+}
+.turn-signal {
+    height: 90%;
+    width: 100%;
+    background-color: red;
+}
+.turn-text {
+    color: #000;
+    width: 100%;
+    font-weight: bold;
+    overflow-y: hidden;
+    font-size: 40px;
+    margin-left: 10%;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Indie Flower', cursive;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.rotate-class {
+    margin-top: 250px;
+    transform-origin: left;
+    transform: rotate(-45deg);
+}
+.dice-image {} .roll-button,
+.hold-button,
+.change-name,
+.greyed-out-class,
+.start-new-game {
+    padding: 10px 40px;
+    background-color: #e74c3c;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 10px
+}
+.greyed-out-class {
+    background-color: #2c3e50;
+    cursor: none;
+    border: none;
+}
+.start-new-game {
+    cursor: pointer;
+}
+.change-name {
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-left: 10px;
+    -webkit-transition: all 0.5s ease-in;
+}
+.roll-button:hover {
+    background-color: #fff;
+    color: #e74c3c;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.start-new-game:hover {
+    background-color: #fff;
+    color: #e74c3c;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.change-name:hover {
+    background-color: #fff;
+    color: black;
+    -webkit-transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.hold-button:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.greyed-out-portion {
+    margin-left: 0;
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.2);
+    z-index: 99;
+    display: none;
+}
+.hide-elements {
+    display: none;
+    /*    -webkit-transition: all 0.5s ease-in-out;*/
+}
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+:-ms-input-placeholder {
+    /* IE 10+ */
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
