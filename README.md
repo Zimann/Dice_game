@@ -15,6 +15,6 @@
 ### Inspiration for the game
 
 - The materials (images) and the idea of the game are taken directly from Jonas Schmedtmann's Udemy course. All the code was created with no "boilerplate" given.
-- Link : https://www.udemy.com/the-complete-javascript-course/
+- Link to the course : https://www.udemy.com/the-complete-javascript-course/
 
 
